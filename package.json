@@ -1,5 +1,6 @@
 {
-  "name": "taro-ui-vue",
+  "private": true,  
+  "name": "taro-ui-vue-final",
   "workspaces": {
     "packages": [
       "packages/*"

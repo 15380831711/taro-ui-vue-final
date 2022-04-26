@@ -1,17 +1,17 @@
 {
   "packages": [
-    "packages/taro-ui-vue"
+    "packages/taro-ui-vue-final"
   ],
   "command": {
     "publish": {
       "message": "chore(release): publish %s"
     },
     "create": {
-      "homepage": "https://github.com/psaren/taro-ui-vue",
+      "homepage": "https://github.com/15380831711/taro-ui-vue-final",
       "license": "MIT"
     }
   },
-  "version": "1.0.0-beta.16",
+  "version": "1.0.0-beta.17",
   "npmClient": "yarn",
   "useWorkspaces": true
 }

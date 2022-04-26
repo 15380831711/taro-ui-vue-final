@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.build",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/taro-ui-vue-final/*": ["../taro-ui-vue-final/*"]
+    }
+  }
+}

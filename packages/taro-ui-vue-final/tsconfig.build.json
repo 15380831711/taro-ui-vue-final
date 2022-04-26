@@ -11,7 +11,7 @@
     "outDir": "lib",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "sourceMap": true,
     "baseUrl": ".",
     "rootDir": ".",
@@ -23,16 +23,17 @@
       "node_modules/@types",
       "global.d.ts",
       "types"
-    ]
+    ],
+    "types": ["node"]
   },
   "include": [
-    "src/components/**.jsx",
-    "src/utils/**.ts",
-    "src/index.ts"
+    "src/**/**.jsx",
+    "src/**/**.vue",
+    "src/**/**.ts",
   ],
   "exclude": [
     "node_modules/*",
-    "packages/taro-ui-vue-final/dist"
+    "dist"
   ],
   "compileOnSave": false
 }
